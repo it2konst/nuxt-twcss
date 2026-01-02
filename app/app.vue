@@ -6,6 +6,8 @@
 
 <template>
   <div class="bg-gray-500 min-h-screen">
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
